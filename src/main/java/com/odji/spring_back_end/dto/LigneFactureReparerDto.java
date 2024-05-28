@@ -1,0 +1,23 @@
+package com.odji.spring_back_end.dto;
+
+import java.math.BigDecimal;
+import java.util.Date;
+
+public class LigneFactureReparerDto {
+
+    private Integer id;
+
+
+    private  ProduitDto produitDto;
+
+    private  ReparerDto reparerDto;
+
+    private FactureReparerDto facturereparerDto ;
+
+
+    private BigDecimal quantite;
+
+    private Date date;
+
+
+}
